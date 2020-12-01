@@ -4,7 +4,7 @@ import 'package:veno_router/veno_router.dart';
 //页面
 import 'package:flutter_app_1201/view/boot_view.dart';
 import 'package:flutter_app_1201/view/catalogue.dart';
-import 'file:///D:/lishihao/flutter/flutter_app_1201/lib/view/widget/text.dart';
+import 'package:flutter_app_1201/view/widget/text.dart';
 
 final router = VenoRouter(routes: [
   VenoRoute(

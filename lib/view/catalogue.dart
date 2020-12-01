@@ -24,7 +24,7 @@ class _Catalogue extends State<Catalogue> {
   Widget _listContent() {
     List navigation = [
       {
-        'cn': '初始化页面12',
+        'cn': '初始化页面',
         'en': '测试',
         'path': '/boot',
       },
