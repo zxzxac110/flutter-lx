@@ -39,6 +39,11 @@ class _CatalogueState extends State<Catalogue> {
         'path': '/appBar',
       },
       {
+        'cn': '图片',
+        'en': 'image',
+        'path': '/image',
+      },
+      {
         'cn': '文本',
         'en': 'text',
         'path': '/text',

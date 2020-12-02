@@ -7,6 +7,7 @@ import 'package:flutter_app_1201/view/catalogue.dart';
 import 'package:flutter_app_1201/view/login.dart';
 
 import 'package:flutter_app_1201/view/widget/appBa.dart';
+import 'package:flutter_app_1201/view/widget/image.dart';
 import 'package:flutter_app_1201/view/widget/text.dart';
 import 'package:flutter_app_1201/view/widget/scaffold.dart';
 
@@ -26,6 +27,10 @@ final router = VenoRouter(routes: [
   VenoRoute(
     path: '/appBar',
     builder: (Widget child, VenoRoute route) => MyAppBar(),
+  ),
+  VenoRoute(
+    path: '/image',
+    builder: (Widget child, VenoRoute route) => MyImage(),
   ),
   VenoRoute(
     path: '/text',
