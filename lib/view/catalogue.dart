@@ -4,10 +4,10 @@ import 'package:veno_router/veno_router.dart';
 
 class Catalogue extends StatefulWidget {
   @override
-  _Catalogue createState() => _Catalogue();
+  _CatalogueState createState() => _CatalogueState();
 }
 
-class _Catalogue extends State<Catalogue> {
+class _CatalogueState extends State<Catalogue> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,9 +29,24 @@ class _Catalogue extends State<Catalogue> {
         'path': '/boot',
       },
       {
+        'cn': '登录',
+        'en': 'login',
+        'path': '/login',
+      },
+      {
+        'cn': '头部配置',
+        'en': 'appBar',
+        'path': '/appBar',
+      },
+      {
         'cn': '文本',
         'en': 'text',
         'path': '/text',
+      },
+      {
+        'cn': '基本风格布局',
+        'en': 'Scaffold',
+        'path': '/scaffold',
       },
     ];
 
